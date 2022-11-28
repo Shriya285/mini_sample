@@ -1,3 +1,5 @@
+#https://projectworlds.in/free-projects/php-projects/placement-management-system-project-in-php/
+#https://www.youtube.com/watch?v=p4uohebPuCg
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -51,34 +53,19 @@ with tab3:
         st.subheader("Skillset:")
         skillset=st.text_area(" ")
         st.write(skillset)
-df = pd.DataFrame(
+        df = pd.DataFrame(
         columns=("Company","Salary","Location"))
-st.dataframe(df)
-st.title("About the Company")
-abt=st.text(" ---------------abc------------ ")
-st.subheader("Size of the company:")
-size=st.text("50-200 employees")
-st.subheader("College Alumni")
-alumni=st.text("34")
-st.subheader("Responsibilities:")
-st.text("--------------def-----------")
-st.subheader("Work Life & Culture:")
-image= Image.open(r"C:\Users\Shriya Konduru\Downloads\google.jpg",'r')
+        st.dataframe(df)
+        st.title("About the Company")
+        abt=st.text(" ---------------abc------------ ")
+        st.subheader("Size of the company:")
+        size=st.text("50-200 employees")
+        st.subheader("College Alumni")
+        alumni=st.text("34")
+        st.subheader("Responsibilities:")
+        st.text("--------------def-----------")
+        st.subheader("Work Life & Culture:")
+        image= Image.open(r"C:\Users\Shriya Konduru\Downloads\google.jpg",'r')
 
-st.image(image)
-st.caption("Benefits of working in this company are;----------")
-       
-#(**Just for Try**)
-# Using object notation
-add_selectbox = st.sidebar.selectbox(
-    "Preferred Language",
-    ("lang1", "lang2", "lang3")
-)
-
-# Using "with" notation
-#with st.sidebar:
-   # add_radio = st.radio(
-    #    "Choose a shipping method",
-     #   ("Standard (5-15 days)", "Express (2-5 days)")
-    #)
-
+        st.image(image)
+        st.caption("Benefits of working in this company are;----------")
